@@ -1,0 +1,6 @@
+# The Norway problem: "NO" is a country code and "no" is a language
+# code, but a YAML 1.1 parser reads both as boolean false.
+user:
+  country: NO
+  language: no
+  answer: y

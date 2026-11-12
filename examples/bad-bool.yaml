@@ -1,0 +1,7 @@
+# Every value below is an unquoted YAML 1.1 boolean word.
+app:
+  enabled: on
+  debug: yes
+  notifications: off
+  answer: n
+  verbose: YES

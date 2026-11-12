@@ -1,0 +1,29 @@
+# A clean app config: every word that looks like a boolean is quoted,
+# so a YAML 1.1 parser reads it as text.
+app:
+  name: demo-app
+  version: 1.4.2
+  debug: false
+  verbose: true
+  enabled: "yes"
+  country: "NO"
+  language: "no"
+  answer: 'n'
+  mode: on-demand
+  note: yesterday
+  status: none
+  server:
+    host: localhost
+    port: 8080
+  features:
+    - search
+    - export
+  flags: ["yes", "no"]
+  notes: |
+    yes
+    no
+    on
+  url: "https://example.com/docs"
+on:
+  push:
+    branches: [main]
